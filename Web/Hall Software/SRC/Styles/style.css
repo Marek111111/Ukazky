@@ -1,0 +1,366 @@
+@font-face {
+    font-family: 'Amble Regular';
+    src: url(../Assets/Fonts/amble_regular_macroman/Amble-Regular-webfont.woff);
+}
+
+@font-face {
+    font-family: 'Amble Bold';
+    src: url(../Assets/Fonts/amble_bold_macroman/Amble-Bold-webfont.woff);
+}
+
+@font-face {
+    font-family: 'Amble Light';
+    src: url(../Assets/Fonts/amble_light_macroman/Amble-Light-webfont.woff);
+}
+
+
+@keyframes promo_anim {
+    0%   {margin-left: -200px;}
+    100% {}
+}
+
+@-webkit-keyframes promo_anim {
+    0%   {margin-left: -200px;}
+    100% {}
+}
+
+
+
+/*******************************/
+/*                             */
+/*            HEADER           */
+/*                             */
+/*******************************/
+body {
+    margin: 0;
+    background-color: #fff;
+    font-family: 'Amble Regular';
+    color: #000;
+}
+
+header article {
+    min-width: 1110px;
+    margin-left: auto;
+    margin-right: auto;
+    display: table;
+}
+
+#logo-holder {
+    float: left;
+}
+
+#logo-holder span {
+    margin: 57px 20px;
+    float: right;
+    font-size: 26px;
+    color: #000
+}
+
+#logo {
+    width: 100px;
+    height: 100px;
+    margin-top: 25px;
+    float: left;
+    background-image: url(../Assets/Images/logo.png);
+    background-size: cover;
+}
+
+#menu {
+    float: right;
+    text-align: right;
+}
+
+#menu li {
+    display: inline-block;
+    margin-top: 65px;
+    margin-left: 60px;
+}
+
+#menu li a {
+    text-decoration: none;
+    color: #000;
+}
+
+/********************************/
+/*                              */
+/*            PROMO             */
+/*                              */
+/********************************/
+#promo {
+    min-width: 1110px;
+    min-height: 600px;
+    background-image: url(../Assets/Images/background.jpg);
+    background-size: cover;
+}
+
+#promo article {
+    max-width: 1110px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #fff;
+}
+
+#head-promo {
+    padding-top: 120px;
+    float: left;
+    animation: promo_anim;
+    animation-duration: 2s;
+    -webkit-animation: promo_anim;
+    -webkit-animation-duration: 2s;
+}
+
+#promo-video {
+    width: 465px;
+    height: 265px;
+    margin-top: 150px;
+    margin-left: -538px;
+}
+
+#head-holder {
+    padding-top: 160px;
+    float: right;
+    animation: text_anim;
+    animation-duration: 4s;
+    -webkit-animation: text_anim;
+    -webkit-animation-duration: 4s;
+}
+
+#head-text {
+    padding: 0 10px;
+    font-family: 'Amble Bold';
+    font-size: 43px;
+}
+
+#head-slogan {
+    margin-top: 10px;
+    padding: 0 10px;
+    font-family: 'Amble Light';
+    font-size: 24px;
+}
+
+#button {
+    display: inline-block;
+    width: 200px;
+    margin-top: 110px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #fff;
+}
+
+#button:hover {
+    color: #000;
+    background-color: #fff;
+    transition: all 200ms ease-in-out;
+}
+
+
+/***********************************/
+/*                                 */
+/*            OVERVIEW             */
+/*                                 */
+/***********************************/
+#overview {
+    min-width: 1110px;
+    padding: 20px;
+    background-color: #fff;
+    color: #000;
+}
+
+#overview article {
+    font-family: 'Amble Light';
+}
+
+.feature {
+    padding: 20px;
+    text-align: center;
+}
+
+.feature img {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.feature-headline {
+    padding: 20px;
+    font-size: 24px;
+    font-family: 'Amble Regular';
+}
+
+.feature-text {
+    font-size: 18px;
+}
+
+.feature-line {
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    border-bottom: 3px solid #000;
+}
+
+#feature-small-holder {
+    margin-left: auto;
+    margin-right: auto;
+    display: table;
+}
+
+.feature-small {
+    padding: 20px;
+    text-align: center;
+    display: inline-block;
+}
+
+.feature-small img {
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    border-radius: 100%;
+    background-size: cover;
+}
+
+/***********************************/
+/*                                 */
+/*            DOWNLOAD             */
+/*                                 */
+/***********************************/
+#download {
+    min-width: 1110px;
+    padding: 40px;
+    background-image: url(../Assets/Images/background.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#download article {
+    max-width: 1110px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Amble Light';
+    color: #fff;
+}
+
+#download-text {
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Amble Bold';
+    font-size: 48px;
+    display: table;
+}
+
+#download-version {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    font-family: 'Amble Regular';
+    font-size: 23px;
+    display: table;
+}
+
+#center-line {
+    width: 1px;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 210px;
+    border-left: 1px solid #fff;
+    display: inline-block;
+}
+
+.table {
+    width: 400px;
+    margin: 25px;
+    padding: 50px;
+    padding-top: 0;
+    display: inline-block;
+    color: #fff;
+}
+
+.table-name {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 40px;
+    font-size: 28px;
+    font-weight: bold;
+    display: table;
+}
+
+.table-item {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px;
+    font-size: 18px;
+    display: table;
+}
+
+#button.download {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    display: table;
+}
+
+/**********************************/
+/*                                */
+/*            CONTACT             */
+/*                                */
+/**********************************/
+#contact {
+    min-width: 1110px;
+    padding: 40px;
+    background-color: #fff;
+    color: #000;
+}
+
+#contact article {
+    max-width: 1110px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Amble Light';
+}
+
+.meta-column {
+    width: 367px;
+    display: inline-table;
+    text-align: center;
+}
+
+.column-name {
+    margin-bottom: 15px;
+    font-family: 'Amble Regular';
+}
+
+.meta-column a {
+    color: #000;
+    text-decoration: none;
+}
+
+.meta-column li {
+    margin-bottom: 3px;
+    list-style: none;
+}
+
+#copyright {
+    margin-top: 100px;
+    text-align: center;
+    font-size: 14px;
+}
+
+
+/********************************/
+/*                              */
+/*            OTHER             */
+/*                              */
+/********************************/
+#backtotop {
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    bottom: 20px;
+    right: 20px;
+    background-image: url(../Assets/Images/arrow.png);
+    background-size: cover;
+    opacity: 0.5;
+}
